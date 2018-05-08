@@ -1,0 +1,39 @@
+.circle{
+    border-radius:50%;
+    background-color: green;
+    height: 170px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.reserved{
+    background-color: red;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.centerElement{
+    margin-right:auto;
+    margin-left: auto; 
+    width: 600px;
+}
+
+#form{
+    position:absolute;
+    top:20%;
+    left:40%;
+    right:40%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    display: none;
+}
+
+h2{
+    text-align: center;
+}
